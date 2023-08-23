@@ -5,7 +5,7 @@
 // 3. Calcule et affiche le prix total TTC de la commande, en utilisant une TVA de 21%
 // Pour interagir avec l’utilisateur, vous utiliserez les fonctions d’entrée/sortie prompt() et alert().
 
-let prix = prompt("Entrez le prix d'un livre HTC : ");
+let prix = prompt("Entrez le prix d'un livre HTC :");
 let quantite = prompt("Entrez la quantité de livre souhaitée : ");
 
 let resultat = (prix * 1.21) * quantite;
