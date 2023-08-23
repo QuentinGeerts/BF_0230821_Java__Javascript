@@ -12,3 +12,5 @@ let resultat = (prix * 1.21) * quantite;
 
 alert (`${quantite} livre(s) à ${prix} € vaut ${resultat} €`);
 
+// Mon commentaire
+
