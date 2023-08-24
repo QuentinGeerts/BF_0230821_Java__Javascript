@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        form>* {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="loginForm">
+        <label for="email">Email :</label>
+        <input type="email" name="email">
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" name="password">
+
+        <div>
+            <input type="checkbox" name="togglePassword" id="togglePassword">
+            <label for="togglePassword">Afficher le mot de passe</label>
+        </div>
+
+        <button type="submit">Se connecter</button>
+    </form>
+
+</body>
+
+</html>
